@@ -2,7 +2,7 @@
 Opensource PHP URL Shortner Project v1.0
 
 # Website Soon..
-**MIMP**
+**IMP**
   * Website without UI
   * genrate rendome shortner values
 
