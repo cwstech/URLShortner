@@ -11,7 +11,7 @@ Opensource PHP URL Shortner Project v1.0
   * admin can mannage all shorted URL(s)(delete/update)
   * User can register and login
   * Genrate custome shortan url.
-  * new more in anather update
+  * new more in onather update
 
 **htaccess**
   * Convert htaccess to .htaccess
@@ -22,6 +22,6 @@ Opensource PHP URL Shortner Project v1.0
 **Setup**
   * locate inc/config.php file.
   * change value occording to you.
-  * locate Databas/.sql file and inmport to your mysql Database.
-  * chack once and enjoy
+  * locate Databas/.sql file and import to your mysql Database.
+  * check once and enjoy
 
