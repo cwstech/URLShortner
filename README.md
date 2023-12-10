@@ -8,7 +8,7 @@ Opensource PHP URL Shortner Project v1.0
 
 **Next UPDATE**
   * admin panel(without UI)
-  * admin can mannage all shorted url(delete/update)
+  * admin can mannage all shorted URL(s)(delete/update)
   * User can register and login
   * Genrate custome shortan url.
   * new more in anather update
