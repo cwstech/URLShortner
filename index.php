@@ -12,7 +12,7 @@ if (isset($_GET['url'])) {
             header("Location: 404.html");
         }
     }
-    echo "The value is: $stringValue";
+    // echo "The value is: $stringValue";
 } else {
     include 'home.php';
 }
