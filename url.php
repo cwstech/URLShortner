@@ -17,7 +17,7 @@ if (isset($_POST['web'])) {
     $parsed = parse_url($url);
     $domain = $parsed['host'];
     // echo $domain . "-domain.";
-    if ($domain == 'bit.ly' || $domain == 'ow.ly' || $domain == 'goo.gl' || $domain == 'adF.ly' || $domain == 'buff.ly' || $domain == 'short.io' || $domain == 'bl.ink' || $domain == 't.ly') {
+    if ($domain == $_SERVER['SERVER_NAME'] || $domain == 'bit.ly' || $domain == 'ow.ly' || $domain == 'goo.gl' || $domain == 'adF.ly' || $domain == 'buff.ly' || $domain == 'short.io' || $domain == 'bl.ink' || $domain == 't.ly') {
         $_SESSION['err'] = "Web is alrady shortain";
         header("Location: /");
     } else {
