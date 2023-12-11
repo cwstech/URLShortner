@@ -1,11 +1,10 @@
 <?php
-require_once 'config.php';
 class DB
 {
-    private $host = "sql303.epizy.com";
-    private $user = "epiz_33615904";
-    private $pass = "PcuB0LQaCNCB";
-    private $db = "epiz_33615904_short";
+    private $host = "";
+    private $user = "";
+    private $pass = "";
+    private $db = "short";
     public $c;
 
     public function __construct()
