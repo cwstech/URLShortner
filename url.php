@@ -41,9 +41,7 @@ if (isset($_POST['web'])) {
                 $_SESSION['err'] = "Url Create Fail Try Again";
             }
         }
-
-
-        echo "<br>Your Shorted URL is :- <div class='copy-box' id='copyBox'><code>" . $_POST['web'] . "</code><button onclick='copyText()'>Copy</button></div>";
+        // echo "<br>Your Shorted URL is :- <div class='copy-box' id='copyBox'><code>" . $_POST['web'] . "</code><button onclick='copyText()'>Copy</button></div>";
 
 
 
